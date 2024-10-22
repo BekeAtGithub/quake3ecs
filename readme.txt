@@ -3,7 +3,7 @@ Download this repository and unzip into your repo folder:
 https://github.com/treyyoder/quakejs-docker
 
 Build image from directory with command:
-
+ 
 # docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .
 
 Push docker image to AWS ECR with command: # replace region with yours and replace <account-id> with your AWS account id - leave --username as AWS, just leave it 
