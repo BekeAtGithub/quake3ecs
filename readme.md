@@ -2,11 +2,13 @@
 Download this repository and unzip into your repo folder:
 https://github.com/treyyoder/quakejs-docker
 
-Build image from directory
-docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .
+Build image from directory with command:
 
-Push docker image to AWS ECR
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.us-east-1.amazonaws.com
+# docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .
+
+Push docker image to AWS ECR with command: 
+
+# aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.us-east-1.amazonaws.com
 
 Tag Docker Image
 docker tag node-app:latest <account-id>.dkr.ecr.us-east-1.amazonaws.com/node-app:latest
