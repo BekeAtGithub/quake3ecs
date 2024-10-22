@@ -18,7 +18,7 @@ Push Docker Image with command:
 
 # docker push <account-id>.dkr.ecr.<region>.amazonaws.com/node-app:latest
 
-## Step 2 Deployment 
+## Step 2 Deployment - make sure you go through the main.tf file and change the us-east-1 to YOUR region
 
 setup Main.tf file with basic infrastructure provisioning to support the containerization of the quake 3 Dockerfile
 exposing port 80, 8080, 27960
