@@ -25,3 +25,4 @@ terraform plan
 
 terraform apply
 
+![alt text](https://github.com/BekeAtGithub/flaskEC2/blob/master/FlaskEC2.drawio.png)
