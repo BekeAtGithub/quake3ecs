@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+
+# Ignore everything in the /terraform directory
+/terraform/
+/App/
+
+# Ignore Terraform lock and state files
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore any other Terraform state files in any directory
+**/*.tfstate
+**/*.tfstate.backup
+
+# Ignore Terraform cache directory
+**/.terraform/
