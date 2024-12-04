@@ -1,7 +1,7 @@
 ## Step 1 acquire application
 Download this repository and unzip into your repo folder:
 https://github.com/treyyoder/quakejs-docker
-
+ 
 Build image from directory with command:
  
 command: docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .
