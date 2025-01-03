@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Replace with your desired AWS region
+  region = "us-east-1"  # Replace with your desired AWS region 
 }
 
 resource "aws_vpc" "main_vpc" {
