@@ -1,4 +1,4 @@
-## Step 1 acquire application  
+## Step 1 acquire application
 Download this repository and unzip into your repo folder: 
 https://github.com/treyyoder/quakejs-docker
  
