@@ -1,3 +1,4 @@
 Read the readme.md -> unzip quake directory into this directory and follow instructions on readme to build docker image, push to Amazon container registry and build terraform config
  
  
+  
