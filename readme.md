@@ -6,7 +6,7 @@ Build image from directory with command:
  
 command: docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .
 
-Push docker image to AWS ECR with command: # replace region with yours and replace <account-id> with your AWS account id - leave --username as AWS, just leave it 
+Push docker image to AWS ECR with the below command: replace region with yours and replace <account-id> with your AWS account id - leave --username as AWS, just leave it 
 
 command: aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <account-id>.dkr.ecr.<region>.amazonaws.com  
 
